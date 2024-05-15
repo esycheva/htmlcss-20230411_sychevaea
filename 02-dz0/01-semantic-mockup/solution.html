@@ -3,27 +3,73 @@
     <head>
         <meta charset="utf=8">
         <title>Semantic</title>
+        <!--<link rel="stylesheet" href="../../assets/css/reset.css"> -->
+        <style>
+            body {
+                color: white;
+                margin: 0;
+            }
+
+            .header {
+                background: red;
+                text-align: center;
+            }
+
+            .title {
+                font-size: 85px;
+                margin: 0;
+            }
+
+            .navigation {
+                background: orange;
+                padding: 20px;
+            }
+
+            .link {
+                font-size: 40px;
+                color: white;
+                margin-right: 20px; 
+            }
+
+            .main {
+                background: green;
+                padding: 20px;
+            }
+
+            .article {
+                background: blue;
+                padding: 20px;
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+
+            .footer {
+                background: purple; 
+                text-align: center;
+                font-size: 85px;
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <h1>Header</h1>
-            <nav>
-                <a href="">Navigation 1</a>
-                <a href="">Navigation 2</a>
-                <a href="">Navigation 3</a>
+        <header class="header">
+            <h1 class="title">Header</h1>
+            <nav class="navigation">
+                <a class="link" href="#">Navigation 1</a>
+                <a class="link" href="#">Navigation 2</a>
+                <a class="link" href="#">Navigation 3</a>
             </nav>
         </header>
-        <main>
-            <article>
-                <h2></h2>
+        <main class="main">
+            <article class="article">
+                <h2>Article 1</h2>
                 <ul>
                     <li>Оригинальная трилогия</li>
                     <li>Трилогия приквелов</li>
                     <li>Трилогия сиквелов</li>
                 </ul>
             </article>
-            <article>
-                <h2></h2>
+            <article class="article">
+                <h2>Article 2</h2>
                 <ol>
                     <li>Эпизод IV - Новая надежда</li>
                     <li>Эпизод V - Империя наносит ответный удар</li>
@@ -31,7 +77,7 @@
                 </ol>
             </article>
         </main>
-        <footer>
+        <footer class="footer">
             Footer
         </footer>
     </body>
